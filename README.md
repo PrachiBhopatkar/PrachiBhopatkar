@@ -1,19 +1,19 @@
 <h1>Hi, I'm Prachi 👋</h1>
 
-**Engineer turned product leader.** 12+ years across engineering and product management, currently leading AI agent products at AWS.
+**Engineer turned product leader.** 12+ years across engineering and product management, currently leading agentic products at AWS.
 
-I use the latest technology to solve real customer problems. As a product manager I put myself in the shoes of the user — understanding their workflows, identifying the real problem, and building products that solve it at scale.
+I use the latest technology to solve real customer problems. As a product manager, I put myself in the user's shoes to understand their workflows and identify the real problem, then build products that solve it at scale.
 
 ---
 
 ## What interests me
 
-**Using generative AI and agents to rethink workflows rather than automate them.** The opportunity is to reconsider the business process itself, not to build a faster version of the path that already exists. Applied well, agents accelerate throughput and eliminate the work humans shouldn't be doing at all — releasing that bandwidth for the decisions where human judgment and strategic thinking are what actually matter.
+**Using generative AI and agents to rethink workflows rather than merely automating existing manual steps.** Applied well, agents accelerate throughput and eliminate work humans shouldn't be doing at all — releasing that bandwidth for the decisions where human judgment and strategic thinking are what actually matter.
 
 My experience lies in:
 
 - **Data products at scale** — building applications that process trillions of line items into actionable insight.
-- **Agentic workflow redesign** — using agents and generative AI to re-architect existing business processes end to end.
+- **Platform and API products** — foundational services and APIs that other teams and partners build on, designed for permissions, governance, and scale from the start.
 - **Zero-to-one product development** — taking products from first customer conversation to launch, then scaling them across an enterprise customer base.
 - **Building applications myself** — I design, build, and ship complete applications outside of work: native macOS apps, RAG systems, mobile-first web apps. Rapid prototyping with coding agents keeps discovery fast and puts working software in front of customers early.
 
@@ -32,8 +32,8 @@ My experience lies in:
 ## 💼 Experience
 
 **AWS** · Feb 2020 – Present
-- **Product Lead, Partner Agents** · Aug 2024 – Present — partner-facing AI agents and partner intelligence: partner and subsidiary account connections, partner onboarding, and the partner journey.
-- **Product Lead, AWS Cost Explorer and Billing Access Controls** · Feb 2022 – Aug 2024
+- **Product Lead** · Aug 2024 – Present — AWS Partner Central agents, AWS Partner account connections, partner onboarding and journey.
+- **Product Lead** · Feb 2020 – Aug 2024 — AWS Cost Explorer, and access controls for Billing and Cost Management products.
 
 **ADP (Lifion by ADP)** · Jul 2016 – Feb 2020
 - **Lead Engineer and Product Manager** — ADP integrations and next-generation compliance products.
