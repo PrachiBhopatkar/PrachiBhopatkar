@@ -1,55 +1,45 @@
 <h1>Hi, I'm Prachi 👋</h1>
 
-**Engineer turned product leader.** I started out writing code and never stopped — today I lead AI agent products at AWS by day, and build and ship applications on my own time.
+**Engineer turned product leader.** 12+ years across engineering and product management, currently leading AI agent products at AWS.
 
-12+ years across engineering and product management, delivering zero-to-one launches and scaling enterprise services that drive adoption, revenue, and operational efficiency.
-
-I use technology to solve real business problems — for my customers at work, and for myself outside of it. Every application below exists because something was genuinely broken or painful, and shipping software was the fastest way to fix it.
+I use the latest technology to solve real customer problems. As a product manager I put myself in the shoes of the user — understanding their workflows, identifying the real problem, and building products that solve it at scale.
 
 ---
 
-## 🤖 What I work on: AI Agents
+## What interests me
 
-- **Agent orchestration** — coordinating specialized agents so they hand off cleanly, share context, and complete a workflow end to end instead of stopping at a single task.
-- **Agent observability** — action logging, tracing, and operational controls so you can see what an agent actually did, why it did it, and where it went wrong.
-- **Evals and guardrails** — measuring agent quality with real evaluation sets rather than vibes, and setting boundaries on permissions, access, and actions before agents touch production workflows.
-- **Chat-based *and* autonomous agents** — conversational interfaces where a human stays in the loop, and agents that run on their own against a goal. Most real systems need both, and knowing which to reach for is half the design.
-- **AI that rethinks the workflow** — using AI to improve business workflows and reconsider the process itself, not just automate the steps that already exist. The goal is a better business outcome, not a faster version of the old path.
+**Using generative AI and agents to rethink workflows rather than automate them.** The opportunity is to reconsider the business process itself, not to build a faster version of the path that already exists. Applied well, agents accelerate throughput and eliminate the work humans shouldn't be doing at all — releasing that bandwidth for the decisions where human judgment and strategic thinking are what actually matter.
 
-## 🛠️ What I'm about
+My experience lies in:
 
-- **Engineer-turned-product-leader** — I write PRDs and I read pull requests. Being close to the code makes me a sharper product thinker, not a slower one.
-- **Enthusiast application builder** — I build complete applications end to end: native macOS apps, RAG systems, mobile-first web apps. Design, code, deploy, ship.
-- **Rapid prototyping with coding agents** — I use AI and coding agents for fast discovery, quick prototypes that get in front of customers early, spec-driven development, and go-to-market materials.
-- **Perpetually curious** — I go deep on new concepts, protocols, and agent patterns because knowing what a technology can actually do is what lets me spot which customer problems just became solvable.
+- **Data products at scale** — building applications that process trillions of line items into actionable insight.
+- **Agentic workflow redesign** — using agents and generative AI to re-architect existing business processes end to end.
+- **Zero-to-one product development** — taking products from first customer conversation to launch, then scaling them across an enterprise customer base.
+- **Building applications myself** — I design, build, and ship complete applications outside of work: native macOS apps, RAG systems, mobile-first web apps. Rapid prototyping with coding agents keeps discovery fast and puts working software in front of customers early.
+
+---
+
+## 🤖 Working with AI agents
+
+- **Goal-oriented agent orchestration** — specialized agents working together toward a business outcome, with task decomposition and clean context handoff across the chain rather than isolated single-task execution.
+- **Agent observability** — action logging, tracing, and operational controls: what the agent did, under whose authority, and where it diverged from the expected path.
+- **Evaluation and guardrails** — evaluation sets that measure agent quality against ground truth, plus permission scoping, access boundaries, and action-level controls before agents touch production systems.
+- **Chat-based and autonomous agents** — human-in-the-loop conversational interfaces and goal-driven autonomous execution. Which one a workflow calls for is a design decision, not a default.
+- **Agent platform foundations** — throughput and scale, access permissions, governance, and the operational controls that determine whether an agent portfolio survives production.
 
 ---
 
 ## 💼 Experience
 
-### AWS · Feb 2020 – Present
+**AWS** · Feb 2020 – Present
+- **Product Lead, Partner Agents** · Aug 2024 – Present — partner-facing AI agents and partner intelligence: partner and subsidiary account connections, partner onboarding, and the partner journey.
+- **Product Lead, AWS Cost Explorer and Billing Access Controls** · Feb 2022 – Aug 2024
 
-**Product Leader, Partner AI Agents & Partner Intelligence** · Jul 2024 – Present
+**ADP (Lifion by ADP)** · Jul 2016 – Feb 2020
+- **Lead Engineer and Product Manager** — ADP integrations and next-generation compliance products.
 
-Product leader for the partner-facing AI agent portfolio and partner intelligence at AWS — spanning partner and subsidiary account connections, partner onboarding, and the end-to-end partner journey. Driving $2B+ ARR and 90%+ enterprise adoption across the products I own.
-
-Earlier at AWS:
-- **Single-Threaded Owner, Cost Reporting and Visualization** · Mar 2022 – Jul 2024
-- **Access Control PM Lead, Billing and Cost Management** · Feb 2020 – Mar 2022
-
-### ADP (Lifion by ADP) · Jul 2016 – Feb 2020
-
-**Product Manager, Compliance Product Suite** · 2019 – Feb 2020
-
-Owned the compliance product suite for ADP's next-generation HCM platform — roadmap and prioritization, PRDs, cross-functional alignment across product, engineering, legal, sales, and marketing, and go-to-market.
-
-**Lead Engineer, Compliance and Integrations** · Jul 2016 – 2019
-
-Led engineering for the compliance and integrations portfolio. Built a scalable integration foundation for ADP and third-party vendors by separating vendor-agnostic from vendor-specific data needs — cutting maintenance and shortening time-to-market across time, benefits, and payroll integrations. Led a 10+ person engineering and UX team that shipped 5 B2B products in 18 months.
-
-### Deloitte Consulting · Jun 2011 – Oct 2013
-
-**Business Technology Analyst** — enterprise SAP transformation for a major Hollywood studio across the US and Japan.
+**Deloitte Consulting** · Jun 2011 – Oct 2013
+- **Technology Consultant** — enterprise SAP transformations.
 
 ---
 
@@ -60,18 +50,32 @@ Led engineering for the compliance and integrations portfolio. Built a scalable 
 
 A native macOS app that brings AI-assisted message formatting into whatever application you're already in. Read a message in Slack, Outlook, Mail, or Teams, press a global hotkey, speak your response naturally, and pick a polished version — CrispVoice inserts it back into the same app. No separate drafting window, no per-platform integration, no switching away from the conversation.
 
-The insight: the native app already has the best context — attachments, formatting, earlier messages, reactions. Pulling a conversation into a separate AI tool to draft a reply throws that context away and adds friction. And plain dictation isn't the answer either, since raw speech arrives full of filler and false starts.
+The native app already holds the best context — attachments, formatting, earlier messages, reactions. Pulling a conversation into a separate AI tool to draft a reply throws that context away and adds friction, and plain dictation doesn't solve it either, since raw speech arrives full of filler and false starts.
+
+**Install it from Terminal:**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/PrachiBhopatkar/CrispVoice/main/scripts/install.sh | /bin/bash
+```
+
+Downloads the latest GitHub Release, verifies its checksum, universal architecture, bundle identity, and pinned self-signed certificate, then installs to `~/Applications/CrispVoice.app` — no `sudo`. Afterwards, grant Microphone, Speech Recognition, and Accessibility permissions, add your Anthropic API key in Settings, and press `Control + Option + C` to dictate.
 
 `Swift` `SwiftUI` `macOS` `Claude API` `Speech-to-text`
 
-### 🛋️ [Airport Lounge RAG Assistant](https://github.com/PrachiBhopatkar/rag-knowledge-assistant) · [Live demo →](https://rag-knowledge-assistant-lake.vercel.app/)
+### 🛋️ [Airport Lounge RAG Assistant](https://github.com/PrachiBhopatkar/rag-knowledge-assistant)
 **Which lounges can I actually get into, right now, with this card?**
 
-A production RAG application that answers natural-language questions about airport lounge access for the top US travel credit cards — including real-time filtering for lounges that are currently open. Combines live-scraped Priority Pass data, static card policy rules, and LLM reasoning to give specific answers instead of generic ones.
+**▶️ Use the application here: [rag-knowledge-assistant-lake.vercel.app](https://rag-knowledge-assistant-lake.vercel.app/)**
 
-The information travelers need is scattered across issuer sites, the Priority Pass app, and airport-specific pages — and none of it tells you what's open right now at your gate. Getting that to a correct answer meant solving the real production RAG problems: chunking strategy, hybrid retrieval, and closing the gap between a system that retrieves and one that answers correctly.
+A production RAG application that answers natural-language questions about airport lounge access for the top US travel credit cards, including real-time filtering for lounges that are currently open. Combines live-scraped Priority Pass data, static card policy rules, and LLM reasoning to return specific answers instead of generic ones.
 
-`Python` `RAG` `ChromaDB` `Vector search` `Next.js` `Vercel`
+The information travelers need is scattered across issuer sites, the Priority Pass app, and airport-specific pages — and none of it tells you what's open right now at your gate. Getting to a correct answer meant solving the production RAG problems: two-stage retrieval (ChromaDB vector search over the top 20 candidates, then Cohere reranking down to 8), and metadata filtering on `airport_code` to stop chunks from one airport contaminating a query about another.
+
+**Evaluation is the part that made it trustworthy.** A hand-curated gold dataset scores every answer across four dimensions: were the correct airport documents retrieved, are the required facts present, is the expected table format used, and does the answer correctly say "no access" when the card doesn't grant any. Cases deliberately cover the failure-prone ones — no-access cards, open-now queries, multi-airport questions.
+
+The lesson that generalizes: **RAG evals expose retrieval failures that output quality masks.** An LLM will produce a fluent, confident answer from entirely the wrong chunks, and no amount of reading the response reveals it. Only scoring retrieved documents against the ones the question actually required catches it.
+
+`Python` `RAG` `ChromaDB` `Cohere rerank` `Evals` `Next.js` `Vercel`
 
 ### 💸 TogetherTab
 **Split bills with friends — no awkward IOUs.**
@@ -84,22 +88,12 @@ Group expenses into **Activities** (trips, events, dinners) and see total spend 
 
 > 📸 Screenshots coming soon.
 
-### 📖 ReadyTales — *under construction*
-Helps a parent prepare a young child for an unfamiliar experience through a short illustrated story about a friendly, original character who models what might happen, names the feelings involved, and works through it. Currently in active development.
-
-`Next.js` `TypeScript` `Supabase` `Vercel`
-
 ---
 
-## 📊 GitHub Stats
+## 📊 Contributions
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=PrachiBhopatkar&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&theme=transparent" alt="Prachi's GitHub stats" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=PrachiBhopatkar&layout=compact&hide_border=true&theme=transparent" alt="Top languages" />
-</p>
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=PrachiBhopatkar&hide_border=true&theme=transparent" alt="Contribution streak" />
+  <img src="https://ghchart.rshah.org/409ba5/PrachiBhopatkar" alt="Prachi Bhopatkar's GitHub contribution chart" width="100%" />
 </p>
 
 ---
