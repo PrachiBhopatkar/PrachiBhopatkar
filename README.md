@@ -92,7 +92,7 @@ Group expenses into **Activities** (trips, events, dinners) and see total spend 
 
 ## 🎓 Education
 
-**New York University**, Tandon School of Engineering — *M.S. Computer Science*, May 2016
+**New York University** — *M.S. Computer Science*, May 2016
 GPA 3.9/4.0 · NYU merit-based scholarship
 
 **Pune University**, India — *B.E. Computer Science*, Jun 2011 · Distinction
