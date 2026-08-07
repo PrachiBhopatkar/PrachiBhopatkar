@@ -90,14 +90,6 @@ Group expenses into **Activities** (trips, events, dinners) and see total spend 
 
 ---
 
-## 📊 Contributions
-
-<p align="center">
-  <img src="https://ghchart.rshah.org/409ba5/PrachiBhopatkar" alt="Prachi Bhopatkar's GitHub contribution chart" width="100%" />
-</p>
-
----
-
 ## 🎓 Education
 
 **New York University**, Tandon School of Engineering — *M.S. Computer Science*, May 2016
