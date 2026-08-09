@@ -80,9 +80,13 @@ The lesson that generalizes: **RAG evals expose retrieval failures that output q
 ### 💸 [TogetherTab](togethertab.md)
 **Split bills with friends — no awkward IOUs.**
 
-A mobile-first expense splitting app for tracking shared costs with friends, whether it's a trip, a dinner, or any group expense. Runs in any browser but is designed to feel like a native iOS app.
+There are hundreds of expense-splitting apps, and nearly all of them rest on the same assumption: everyone at the table already has it installed. That assumption breaks at the first real dinner. Someone hasn't installed it, doesn't intend to, and the group falls back to mental math and a vague promise to settle up later.
 
-Group expenses into **Activities** (trips, events, dinners) and see total spend at a glance. Split any expense equally across any combination of participants — pulled from your friends list or added by phone number, with real-time lookup that detects whether someone's already on the app. If they aren't, TogetherTab generates an invite link automatically and links their share to their account the moment they join. A dashboard shows your net balance, what you're owed, and what you owe; a notifications inbox collects connection requests and outstanding balances with a **Remind** button to nudge friends. When the payer marks an expense received it settles instantly, and once every expense in an Activity is settled the whole Activity archives itself.
+TogetherTab treats that as the main case rather than the edge case. You can split with someone who has never heard of the app — they get an SMS with a deep link, and their share is already waiting if they ever sign up. Nothing has to be installed for the split to be recorded correctly.
+
+The second assumption worth breaking is that a split means one share per person. In practice someone is usually covering a partner, a kid, or a friend who left early, so shares are allocated by party size rather than headcount.
+
+A mobile-first app that runs in any browser and ships to iOS through Capacitor.
 
 `React 19` `TypeScript` `Tailwind` `Framer Motion` `Firebase Auth` `Supabase` `Capacitor` `iOS`
 
