@@ -77,7 +77,7 @@ The lesson that generalizes: **RAG evals expose retrieval failures that output q
 
 `Python` `RAG` `ChromaDB` `Cohere rerank` `Evals` `Next.js` `Vercel`
 
-### 💸 TogetherTab
+### 💸 [TogetherTab](togethertab.md)
 **Split bills with friends — no awkward IOUs.**
 
 A mobile-first expense splitting app for tracking shared costs with friends, whether it's a trip, a dinner, or any group expense. Runs in any browser but is designed to feel like a native iOS app.
@@ -86,7 +86,7 @@ Group expenses into **Activities** (trips, events, dinners) and see total spend 
 
 `React 19` `TypeScript` `Tailwind` `Framer Motion` `Firebase Auth` `Supabase` `Capacitor` `iOS`
 
-> 📸 Screenshots coming soon.
+**→ [Architecture and screenshots](togethertab.md)** — including the Firebase-to-Supabase JWT bridge that lets native sign-in coexist with Postgres Row Level Security.
 
 ---
 
