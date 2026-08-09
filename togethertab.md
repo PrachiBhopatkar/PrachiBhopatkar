@@ -26,27 +26,35 @@ Those two don't talk to each other. Supabase RLS policies expect a Supabase-issu
 
 ```mermaid
 flowchart TB
-    subgraph client["Client — React 19 + TypeScript + Vite"]
-        UI["Screens & components<br/>Tailwind · Framer Motion"]
-        CAP["Capacitor shell<br/>native iOS build"]
+    subgraph client["Client — React 19, TypeScript, Vite"]
+        UI["Screens and components — Tailwind, Framer Motion"]
+        CAP["Capacitor shell — native iOS build"]
     end
 
     subgraph auth["Authentication"]
-        FB["Firebase Auth<br/>Google · Apple Sign-In"]
-        EF["Supabase Edge Function<br/>firebase-jwt-exchange"]
+        FB["Firebase Auth — Google and Apple Sign-In"]
+        EF["Supabase Edge Function — firebase-jwt-exchange"]
     end
 
     subgraph data["Supabase — PostgreSQL"]
-        RLS["Row Level Security<br/>policies per table"]
-        DB[("profiles · activities<br/>expenses · expense_shares<br/>connection_requests<br/>invites · user_phones")]
+        RLS["Row Level Security — policies per table"]
+        DB[("activities, expenses, expense_shares, invites, connections")]
     end
 
     UI --> CAP
-    UI -->|"1 · native sign-in sheet"| FB
-    FB -->|"2 · Firebase ID token"| EF
-    EF -->|"3 · verified, re-signed<br/>Supabase JWT"| UI
-    UI -->|"4 · authorized queries"| RLS
+    UI -->|"1 - native sign-in sheet"| FB
+    FB -->|"2 - Firebase ID token"| EF
+    EF -->|"3 - verified, re-signed Supabase JWT"| UI
+    UI -->|"4 - authorized queries"| RLS
     RLS --> DB
+
+    classDef clientNode fill:#dbeafe,stroke:#3b82f6,stroke-width:1px,color:#12305c
+    classDef authNode fill:#fef3c7,stroke:#f59e0b,stroke-width:1px,color:#5c3d0a
+    classDef dataNode fill:#d1fae5,stroke:#10b981,stroke-width:1px,color:#0a3d2c
+
+    class UI,CAP clientNode
+    class FB,EF authNode
+    class RLS,DB dataNode
 ```
 
 **Why it's built this way**
